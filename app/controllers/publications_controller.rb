@@ -25,7 +25,7 @@ class PublicationsController < ApplicationController
     @publication = Publication.new(publication_params)
 
     if @publication.save
-      redirect_to @publication, notice: "Publication was successfully created."
+      redirect_to root_path, notice: "Publication was successfully created."
     else
       render :new, status: :unprocessable_entity
     end

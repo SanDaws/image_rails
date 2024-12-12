@@ -6,8 +6,8 @@
   <% content_for :title, "Publications" %>
 
   <div class="flex justify-between items-center">
-    <h1 class="font-bold text-4xl">Publications</h1>
-    <%= link_to "New publication", new_publication_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
+    <h1 class="font-bold text-4xl"><%=t("publications.title")%></h1>
+    <%= link_to t("publications.create"), new_publication_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
   </div>
 
   <div id="publications" class="min-w-full">

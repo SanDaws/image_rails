@@ -1,5 +1,10 @@
 es:
   publications:
-    title: "Publica contenido"
-    form:
-      description: "descripcion"
+    title: "Nuestras Publicaciones"
+    create: "publicar"
+  creation:
+    title: "Nueva publicacion"
+    description: "Descripcion"
+    image: "elige tu imagen aqui"
+    create: "Publicar"
+    back: "cancelar"

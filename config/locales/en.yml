@@ -28,4 +28,12 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  publications:
+    title: "Posts"
+    create: "New Post"
+  creation:
+    title: "New Post"
+    description: "Description"
+    image: "Upload yout photo"
+    create: "Post it!"
+    back: "Back"
