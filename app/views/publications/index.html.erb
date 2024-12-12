@@ -13,9 +13,7 @@
   <div id="publications" class="min-w-full">
     <% @publications.each do |publication| %>
       <%= render publication %>
-      <p>
-        <%= link_to "Show this publication", publication, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      </p>
+
     <% end %>
   </div>
 </div>

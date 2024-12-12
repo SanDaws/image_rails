@@ -1,7 +1,9 @@
-<div id="<%= dom_id publication %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Description:</strong>
-    <%= publication.description %>
-  </p>
-
+<div id="<%= dom_id publication %>" class="flex justify-center my-5">
+  <section class="bg-white shadow-lg rounded-lg border border-gray-200 p-4 w-96 text-center">
+    <figure class="mb-4">
+      <%= image_tag url_for(publication.image), class: "w-full h-48 object-cover rounded-lg" if publication.image.attached? %>
+    </figure>
+    <strong class="block font-medium mb-2 text-gray-800">Anonim:</strong>
+    <p class="text-gray-600"><%= publication.description %></p>
+  </section>
 </div>

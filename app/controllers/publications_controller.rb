@@ -1,8 +1,6 @@
 class PublicationsController < ApplicationController
   before_action :set_publication, only: %i[ show edit update destroy ]
-  def upublicate_params
-    params.require(:publication).permit(:avatar)
-  end
+
 
   # GET /publications
   def index
@@ -56,6 +54,6 @@ class PublicationsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def publication_params
-      params.require(:publication).permit(:description)
+      params.require(:publication).permit(:description, :image)
     end
 end
