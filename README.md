@@ -1,24 +1,41 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project Title
 
-Things you may want to cover:
+Start of anonim post for social media
 
-* Ruby version
 
-* System dependencies
+## Environment Variables
 
-* Configuration
+To run this project, you will need to add the following environment variables to your .env file
 
-* Database creation
+```
+CLOUD_NAME=
+API_SECRET= 
+API_KEY= 
 
-* Database initialization
+db_USER= 
+db_PASSWORD= 
+db_HOST= 
+db_NAME= 
+db_PORT= 
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Installation
 
-* ...
+clone the repo
+
+```bash
+  git clone https://github.com/SanDaws/image_rails.git
+```
+install all gems
+
+```bash
+  bundle install
+```
+use wsl or ubunto terminal to run
+```bash
+  bin/dev
+```
+    
